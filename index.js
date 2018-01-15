@@ -26,7 +26,7 @@
     });
     //download data as xlsx
     ctrl.exportData = function () {
-        alasql('SELECT * INTO XLS("tracks.xlsx",?) FROM ?',[mystyle,ctrl.items]);
+        alasql('SELECT * INTO XLS("tracks.xls",?) FROM ?',[mystyle,ctrl.items]);
     };
       }
   testService.$inject=['$http'];

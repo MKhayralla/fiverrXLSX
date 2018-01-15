@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alasql/0.4.2/alasql.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.9.2/xlsx.core.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <title>Angularjs xlsx example</title>
+  </head>
+  <body ng-app="fiverrApp">
+    <div class="jumbotron" style="min-height : 100px ; color : white ; background-color : blue ;">
+      <h1>welcome to the xlsx exporter demo</h1>
+    </div>
+    <div ng-controller="appController as ctrl" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-lg-3">
+          <!--export the xlsx file-->
+          <button type="button" ng-click="ctrl.exportData()" class="btn btn-lg btn-success">save file as xlsx</button>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-lg-9">
+          <!--show a preview of the data-->
+          <table class="table table-responsive">
+            <thead>
+              <tr>
+                  <th>track_id</th>
+                  <th>title</th>
+                  <th>len</th>
+                  <th>rating</th>
+                  <th>count</th>
+                  <th>album_id</th>
+                  <th>genre_id</th>
+              </tr>
+            </thead>
+            <tbody ng-repeat="track in ctrl.items">
+              <tr>
+                <th>{{track.track_id}}</th>
+                <th>{{track.title}}</th>
+                <th>{{track.len}}</th>
+                <th>{{track.rating}}</th>
+                <th>{{track.count}}</th>
+                <th>{{track.album_id}}</th>
+                <th>{{track.genre_id}}</th>
+              </tr>
+            </tbody>
+    </table>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

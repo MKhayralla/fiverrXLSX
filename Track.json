@@ -1,0 +1,28 @@
+[
+{"type":"header","version":"4.7.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"Music"},
+{"type":"table","name":"Track","database":"Music","data":
+[
+{"track_id":"1","title":"Beat it","len":"258","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"2","title":"The Lady In My Life","len":"299","rating":"4","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"3","title":"Billie Jean","len":"294","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"4","title":"Baby Be Mine","len":"260","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"5","title":"Unbreakable","len":"385","rating":"4","count":"0","album_id":"2","genre_id":"1"},
+{"track_id":"6","title":"Heartbreaker","len":"310","rating":"5","count":"0","album_id":"2","genre_id":"1"},
+{"track_id":"7","title":"Speechless","len":"198","rating":"3","count":"0","album_id":"2","genre_id":"1"},
+{"track_id":"8","title":"Privacy","len":"304","rating":"5","count":"0","album_id":"2","genre_id":"1"},
+{"track_id":"9","title":"Loving You","len":"195","rating":"4","count":"0","album_id":"3","genre_id":"1"},
+{"track_id":"10","title":"Love Never Felt So Good","len":"235","rating":"4","count":"0","album_id":"3","genre_id":"1"},
+{"track_id":"11","title":"Chicago","len":"245","rating":"5","count":"0","album_id":"3","genre_id":"1"},
+{"track_id":"12","title":"Xscape","len":"245","rating":"4","count":"0","album_id":"3","genre_id":"1"},
+{"track_id":"13","title":"W.T.P","len":"238","rating":"5","count":"0","album_id":"4","genre_id":"2"},
+{"track_id":"14","title":"Not Afraid","len":"248","rating":"5","count":"0","album_id":"4","genre_id":"2"},
+{"track_id":"15","title":"On Fire","len":"214","rating":"4","count":"0","album_id":"4","genre_id":"2"},
+{"track_id":"16","title":"Seduction","len":"276","rating":"4","count":"0","album_id":"4","genre_id":"2"},
+{"track_id":"17","title":"Lonely","len":"236","rating":"5","count":"0","album_id":"5","genre_id":"3"},
+{"track_id":"18","title":"Pot Of Gold","len":"216","rating":"5","count":"0","album_id":"5","genre_id":"3"},
+{"track_id":"19","title":"Ghetto","len":"235","rating":"3","count":"0","album_id":"5","genre_id":"3"},
+{"track_id":"20","title":"Show Out","len":"205","rating":"3","count":"0","album_id":"5","genre_id":"3"}
+]
+}
+]
